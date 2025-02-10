@@ -10,6 +10,6 @@ import { Component, Input } from '@angular/core';
 })
 export class SquareComponent {
 
-  @Input() value: 'X' | 'O' | null = "X";
+  @Input() value: 'X' | 'O' | null = 'X';
 
 }

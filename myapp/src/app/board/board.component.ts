@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './board.component.scss'
 })
 export class BoardComponent implements OnInit {
-  squares: (string | null)[] = [];
+  squares: ('X' | 'O' | null)[] = [];
   xIsNext: boolean = true;
   winner: string | null = null;
 
